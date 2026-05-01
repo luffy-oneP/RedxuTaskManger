@@ -41,7 +41,15 @@ body {
   letter-spacing: -0.5px;
 }
 
-/*     */
+.progress-ring {
+  position: relative;
+  width: 48px;
+  height: 48px;
+}
+
+.progress-ring svg {
+  transform: rotate(-90deg);
+}
 
 .circle-bg {
   fill: none;
